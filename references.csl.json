@@ -1,0 +1,436 @@
+[
+  {
+    "id": "basalt_calcium_ref_001",
+    "type": "document",
+    "title": "Basalt and Basalt-Derived Materials in Cement Manufacture and Cementitious Composites: A Global Literature Survey",
+    "note": "[1] Pierce, B. (2026). Basalt and Basalt-Derived Materials in Cement Manufacture and Cementitious Composites: A Global Literature Survey. Zenodo. https://doi.org/10.5281/zenodo.23489459",
+    "URL": "https://doi.org/10.5281/zenodo.23489459",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          20
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.23489459",
+    "author": [
+      {
+        "family": "Pierce",
+        "given": "Brad"
+      }
+    ]
+  },
+  {
+    "id": "basalt_calcium_ref_002",
+    "type": "document",
+    "title": "Silicate Rocks and Mineral Residues as Sources of Cementitious Precursors: A Literature Survey",
+    "note": "[2] Pierce, B. (2026). Silicate Rocks and Mineral Residues as Sources of Cementitious Precursors: A Literature Survey. Zenodo. https://doi.org/10.5281/zenodo.23524396",
+    "URL": "https://doi.org/10.5281/zenodo.23524396",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.23524396",
+    "author": [
+      {
+        "family": "Pierce",
+        "given": "Brad"
+      }
+    ]
+  },
+  {
+    "id": "basalt_calcium_ref_003",
+    "type": "article-journal",
+    "title": "Silicate-derived calcium as a pathway to low-carbon Portland cement",
+    "note": "[3] Prancevic, J. P., Finke, C. E., Peterson, E., Nguyen, W., Clarens, A. F., and Pyatina, T. (2026). Silicate-derived calcium as a pathway to low-carbon Portland cement. Communications Sustainability 1, 78. https://doi.org/10.1038/s44458-026-00056-4",
+    "URL": "https://doi.org/10.1038/s44458-026-00056-4",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          14
+        ]
+      ]
+    },
+    "DOI": "10.1038/s44458-026-00056-4",
+    "author": [
+      {
+        "family": "Prancevic",
+        "given": "Jeff P."
+      },
+      {
+        "family": "Finke",
+        "given": "Cody E."
+      },
+      {
+        "family": "Peterson",
+        "given": "Eric"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Wilson"
+      },
+      {
+        "family": "Clarens",
+        "given": "Andres F."
+      },
+      {
+        "family": "Pyatina",
+        "given": "Tatiana"
+      }
+    ],
+    "volume": "1",
+    "issue": "1",
+    "container-title": "Communications Sustainability",
+    "article-locator": "78"
+  },
+  {
+    "id": "basalt_calcium_ref_004",
+    "type": "document",
+    "title": "Environmental Product Declaration Portland Cement",
+    "note": "[4] Portland Cement Association (2023 revision). Environmental Product Declaration Portland Cement. EPD 195; US 2019 foreground. Table 4, p 10; Table 1, p 4. https://www.cement.org/wp-content/uploads/2024/07/pca_epd_portland_athena_final_revised_nov2023-1.pdf",
+    "URL": "https://www.cement.org/wp-content/uploads/2024/07/pca_epd_portland_athena_final_revised_nov2023-1.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Portland Cement Association"
+      }
+    ]
+  },
+  {
+    "id": "basalt_calcium_ref_005",
+    "type": "article-journal",
+    "title": "Electrodialysis with Bipolar Membranes for the Sustainable Production of Chemicals from Seawater Brines at Pilot Plant Scale",
+    "note": "[5] Cassaro, C., Virruso, G., Culcasi, A., Cipollina, A., Tamburini, A., and Micale, G. (2023). Electrodialysis with Bipolar Membranes for the Sustainable Production of Chemicals from Seawater Brines at Pilot Plant Scale. ACS Sustainable Chemistry & Engineering 11, 2989–3000. https://doi.org/10.1021/acssuschemeng.2c06636",
+    "URL": "https://doi.org/10.1021/acssuschemeng.2c06636",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1021/acssuschemeng.2c06636",
+    "author": [
+      {
+        "family": "Cassaro",
+        "given": "Calogero"
+      },
+      {
+        "family": "Virruso",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Culcasi",
+        "given": "Andrea"
+      },
+      {
+        "family": "Cipollina",
+        "given": "Andrea"
+      },
+      {
+        "family": "Tamburini",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Micale",
+        "given": "Giorgio"
+      }
+    ],
+    "volume": "11",
+    "issue": "7",
+    "page": "2989-3000",
+    "container-title": "ACS Sustainable Chemistry & Engineering"
+  },
+  {
+    "id": "basalt_calcium_ref_006",
+    "type": "article-journal",
+    "title": "Thermo-kinetic modelling of the acidic leaching of anorthosite: Key learnings toward the conception of a sustainable industrial process",
+    "note": "[6] Neron, T., Cassayre, L., Zhuo, X., Manero, M.-H., Bourgeois, F., Billet, A.-M., and Julcour, C. (2022). Thermo-kinetic modelling of the acidic leaching of anorthosite: Key learnings toward the conception of a sustainable industrial process. Minerals Engineering 180, 107500. https://doi.org/10.1016/j.mineng.2022.107500",
+    "URL": "https://doi.org/10.1016/j.mineng.2022.107500",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.mineng.2022.107500",
+    "author": [
+      {
+        "family": "Neron",
+        "given": "Thomas"
+      },
+      {
+        "family": "Cassayre",
+        "given": "Laurent"
+      },
+      {
+        "family": "Zhuo",
+        "given": "Xuan"
+      },
+      {
+        "family": "Manero",
+        "given": "Marie-Hélène"
+      },
+      {
+        "family": "Bourgeois",
+        "given": "Florent"
+      },
+      {
+        "family": "Billet",
+        "given": "Anne-Marie"
+      },
+      {
+        "family": "Julcour",
+        "given": "Carine"
+      }
+    ],
+    "volume": "180",
+    "page": "107500",
+    "container-title": "Minerals Engineering"
+  },
+  {
+    "id": "basalt_calcium_ref_007",
+    "type": "document",
+    "title": "Life Cycle Greenhouse Gas Emissions from Electricity Generation: Update",
+    "note": "[7] National Renewable Energy Laboratory (2021). Life Cycle Greenhouse Gas Emissions from Electricity Generation: Update. NREL/FS-6A50-80580. Table 1. https://research-hub.nlr.gov/en/publications/life-cycle-greenhouse-gas-emissions-from-electricity-generation-u/",
+    "URL": "https://research-hub.nlr.gov/en/publications/life-cycle-greenhouse-gas-emissions-from-electricity-generation-u/",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "National Renewable Energy Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "basalt_calcium_ref_008",
+    "type": "document",
+    "title": "GHG Emission Factors Hub",
+    "note": "[8] US Environmental Protection Agency (2025). GHG Emission Factors Hub. Table 1. https://www.epa.gov/system/files/documents/2025-01/ghg-emission-factors-hub-2025.pdf",
+    "URL": "https://www.epa.gov/system/files/documents/2025-01/ghg-emission-factors-hub-2025.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "US Environmental Protection Agency"
+      }
+    ]
+  },
+  {
+    "id": "basalt_calcium_ref_009",
+    "type": "document",
+    "title": "CEM I 52.5 R SH-cement Skövde",
+    "note": "[9] Heidelberg Materials Cement Sverige AB (2024). CEM I 52.5 R SH-cement Skövde. Environmental Product Declaration NEPD-7911-7580-EN, issued 24 October 2024; study year 2023. A 1–A 3 results, p 6. https://www.epd-norge.no/getfile.php/13204238-1741714994/EPDer/Byggevarer/Sement/NEPD-7911-7580_CEM-I-525-R-SH-cement-Sk-vde.pdf",
+    "URL": "https://www.epd-norge.no/getfile.php/13204238-1741714994/EPDer/Byggevarer/Sement/NEPD-7911-7580_CEM-I-525-R-SH-cement-Sk-vde.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Heidelberg Materials Cement Sverige AB"
+      }
+    ]
+  },
+  {
+    "id": "basalt_calcium_ref_010",
+    "type": "patent",
+    "title": "Process to make calcium oxide or ordinary Portland cement from calcium bearing rocks and minerals",
+    "note": "[10] Finke, C. E., and Leandri, H. F. Process to make calcium oxide or ordinary Portland cement from calcium bearing rocks and minerals. US11718558B2. https://patents.google.com/patent/US11718558B2/en",
+    "URL": "https://patents.google.com/patent/US11718558B2/en",
+    "author": [
+      {
+        "family": "Finke",
+        "given": "C. E."
+      },
+      {
+        "family": "Leandri",
+        "given": "H. F."
+      }
+    ],
+    "number": "US11718558B2"
+  },
+  {
+    "id": "basalt_calcium_ref_011",
+    "type": "patent",
+    "title": "由含钙岩石和矿物生产氧化钙或普通波特兰水泥的工艺",
+    "note": "[11] C.E.芬克 and H.F.利安德里 (2022). 由含钙岩石和矿物生产氧化钙或普通波特兰水泥的工艺. CN114555539A. Chinese publication in the same patent family as [10]. https://patents.google.com/patent/CN114555539A/zh",
+    "URL": "https://patents.google.com/patent/CN114555539A/zh",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "C.E.芬克"
+      },
+      {
+        "literal": "H.F.利安德里"
+      }
+    ],
+    "number": "CN114555539A"
+  },
+  {
+    "id": "basalt_calcium_ref_012",
+    "type": "document",
+    "title": "Best Available Techniques (BAT) Reference Document for the Production of Cement, Lime and Magnesium Oxide",
+    "note": "[12] Schorcht, F., Kourti, I., Scalet, B. M., Roudier, S., and Delgado Sancho, L. (2013). Best Available Techniques (BAT) Reference Document for the Production of Cement, Lime and Magnesium Oxide. JRC 83006, EUR 26129. Sections 1.3.3 and 1.4.2, pp 47, 49,101. https://doi.org/10.2788/12850",
+    "URL": "https://doi.org/10.2788/12850",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.2788/12850",
+    "author": [
+      {
+        "family": "Schorcht",
+        "given": "F."
+      },
+      {
+        "family": "Kourti",
+        "given": "I."
+      },
+      {
+        "family": "Scalet",
+        "given": "B. M."
+      },
+      {
+        "family": "Roudier",
+        "given": "S."
+      },
+      {
+        "family": "Delgado Sancho",
+        "given": "L."
+      }
+    ]
+  },
+  {
+    "id": "basalt_calcium_ref_013",
+    "type": "document",
+    "title": "酸性溶剂下玄武岩中钙镁元素溶解浸出特性的热力学分析",
+    "note": "[13] 晏恒、席细平、石金明、艾仙斌、林敏 (2021). 酸性溶剂下玄武岩中钙镁元素溶解浸出特性的热力学分析 [Thermodynamic Analysis of Dissolution and Leaching Characteristics of Calcium and Magnesium from Basalt in Acid Solvent]. Issue 2, 54–58+64. Assessment based on the publisher abstract. https://doi.org/10.16056/j.2096-7705.2021.02.011",
+    "URL": "https://doi.org/10.16056/j.2096-7705.2021.02.011",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.16056/j.2096-7705.2021.02.011",
+    "author": [
+      {
+        "literal": "晏恒"
+      },
+      {
+        "literal": "席细平"
+      },
+      {
+        "literal": "石金明"
+      },
+      {
+        "literal": "艾仙斌"
+      },
+      {
+        "literal": "林敏"
+      }
+    ],
+    "title-translation": "Thermodynamic Analysis of Dissolution and Leaching Characteristics of Calcium and Magnesium from Basalt in Acid Solvent",
+    "page": "54–58,64",
+    "issue": "2"
+  },
+  {
+    "id": "basalt_calcium_ref_014",
+    "type": "patent",
+    "title": "High efficiency acid-base leaching methods and systems",
+    "note": "[14] Stern, M. C., Benck, J. D., and Chiang, Y.-M. (2025). High efficiency acid-base leaching methods and systems. US20250388512A1, published 25 December 2025. Figure 13 and accompanying stream-composition description. https://patents.google.com/patent/US20250388512A1/en",
+    "URL": "https://patents.google.com/patent/US20250388512A1/en",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Stern",
+        "given": "M. C."
+      },
+      {
+        "family": "Benck",
+        "given": "J. D."
+      },
+      {
+        "family": "Chiang",
+        "given": "Y.-M."
+      }
+    ],
+    "number": "US20250388512A1"
+  },
+  {
+    "id": "basalt_calcium_ref_015",
+    "type": "article-journal",
+    "title": "Norwegian anorthosites and their industrial uses, with emphasis on the massifs of the Inner Sogn-Voss area in western Norway",
+    "note": "[15] Wanvik, J. E. (2000). Norwegian anorthosites and their industrial uses, with emphasis on the massifs of the Inner Sogn-Voss area in western Norway. Norges geologiske undersøkelse Bulletin 436,103–112. https://static.ngu.no/filearchive/102/Bulletin436_11.pdf",
+    "URL": "https://static.ngu.no/filearchive/102/Bulletin436_11.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Wanvik",
+        "given": "J. E."
+      }
+    ],
+    "volume": "436",
+    "page": "103–112",
+    "container-title": "Norges geologiske undersøkelse Bulletin"
+  }
+]

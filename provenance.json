@@ -1,0 +1,16 @@
+{
+  "source_publication": "https://zenodo.org/records/23547373",
+  "preferred_version_doi": "10.5281/zenodo.23547373",
+  "concept_doi": "10.5281/zenodo.23547372",
+  "source_filename": "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+  "source_sha256": "e0107c1ae5c10fd03bc54908df28cffb7032f491767cf0b68ea389a97e5f8c6a",
+  "source_bytes": 494859,
+  "canonical_blocks_sha256": "47f58cc720581de7071e564144a525bd40a4cb12565e2c78880dc677ddd1a69e",
+  "transformation": "Publication-source paragraph and table mapping checked against deposited PDFs. Original SVGs retained. Supplement text and exact ZIP accompany the main article. calculation/ is a byte-preserving extraction of the deposited ZIP; commands there are immutable published package content.",
+  "companion_artifacts": [
+    "basalt-derived-calcium-calculation-package.zip",
+    "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+    "calculation-supplement-for-basalt-derived-calcium.pdf"
+  ],
+  "manual_text_corrections": []
+}
