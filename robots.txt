@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bradpierce.ai/basalt-derived-calcium-for-lower-carbon-portland-cement/sitemap.xml

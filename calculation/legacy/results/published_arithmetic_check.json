@@ -1,0 +1,11 @@
+{
+  "source": "Prancevic2026 feasibility/Table2; rounded source arithmetic",
+  "salt_splitting_GJ": 4.444,
+  "plus_clinkering_GJ": 6.144,
+  "table2_electricity_implied_grid_kg_per_kWh": 0.3199354838709677,
+  "source_reported": {
+    "regeneration_GJ": 4.5,
+    "total_GJ": 6.2
+  },
+  "interpretation": "not used as new route full-boundary inventory or copied as measured plant data"
+}

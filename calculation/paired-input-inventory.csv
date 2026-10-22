@@ -1,0 +1,11 @@
+parameter,value,evidence_class,source_locator,transfer_limit
+calcination_kg,480,source-reported,PCA revised2023 Table4 p10,US2019 foreground; not site assay
+clinker_fraction,0.914,source-reported,PCA revised2023 Table1 p4,Fixed matched cement composition
+eligible_fraction,0.95,selected,Author selection,Not a measured Ca/Mg split
+kiln_GJ_per_tclinker,3.5,selected within reported range,JRC2013 Sec1.3.3.1 p47 and1.4.2 p101,"3.5 annual dry-process screen, not observed current plant"
+common_kWh_per_tcement,100,selected within reported range,JRC2013 Sec1.3.3.2 p49,100 within90–150kWh/tcement
+common_other_kg,50,selected,Author selection,U50 varied0–100; differential duties cannot cancel here
+kiln_heat_factor,70,selected,Author scenario,kgCO2e/GJkiln input LHV; not EPA lifecycle factor
+recovery_heat_factor,70,selected,Author scenario,kgCO2e/GJsupplied recovery heat; separate energy-service boundary
+principal_lambda,1.3,selected from derived lower-bound insight,Neron2022 Ca0.65Na0.35 composition plus author equivalent balance,Na-only bound1.26923; other impurities not closed
+electricity_factors,"[0.02, 0.03, 0.04, 0.05, 0.07, 0.1, 0.4]",selected,Author delivered lifecycle supply scenarios; NREL context only,Apply same factor to both routes; not firm supply proof

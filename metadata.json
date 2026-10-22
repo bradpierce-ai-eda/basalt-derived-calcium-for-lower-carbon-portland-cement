@@ -1,0 +1,47 @@
+{
+  "title": "Basalt-Derived Calcium for Lower Carbon Portland Cement",
+  "subtitle": "A Carbon Budget for Process Development",
+  "authors": [
+    {
+      "name": "Brad Pierce",
+      "given": "Brad",
+      "family": "Pierce",
+      "orcid": "https://orcid.org/0009-0009-7427-2969"
+    }
+  ],
+  "publication_date": "2026-10-21",
+  "doi": "10.5281/zenodo.23547373",
+  "doi_url": "https://doi.org/10.5281/zenodo.23547373",
+  "concept_doi": "10.5281/zenodo.23547372",
+  "zenodo_record": "https://zenodo.org/records/23547373",
+  "license": "CC-BY-NC-4.0",
+  "rights": "© 2026 Brad Pierce",
+  "pdf_filename": "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+  "public_urls": {
+    "article": "https://bradpierce.ai/basalt-derived-calcium-for-lower-carbon-portland-cement/",
+    "pdf": "https://bradpierce.ai/basalt-derived-calcium-for-lower-carbon-portland-cement/basalt-derived-calcium-for-lower-carbon-portland-cement.pdf"
+  },
+  "preferred_citation": "Pierce, B. (2026). Basalt-Derived Calcium for Lower Carbon Portland Cement [Report]. Zenodo. https://doi.org/10.5281/zenodo.23547373",
+  "canonical_blocks_sha256": "47f58cc720581de7071e564144a525bd40a4cb12565e2c78880dc677ddd1a69e",
+  "abstract": "Basalt-derived calcium warrants integrated development toward 10–20% lower total emissions from Portland cement manufacture. The route avoids carbonate decomposition but must pay for extraction, separation and regeneration. We combine a coupled operating specification with a paired carbon budget, assigning zero coproduct, carbon-removal or allocation credits and no assumed kiln-energy saving. A derived reagent-equivalent constraint accounts explicitly for sodium release; the principal selected multiplier is 1.30 relative to calcium-only demand. Under a reconstructed dry-process comparator with the same energy supply and matched cement, selected operation at 20–40 g CO₂e/kWh calculates 12.5–19.4% lower total emissions. At 30 g/kWh, the conventional and basalt cases are 756.9 and 636.0 kg CO₂e/t. At 50 g/kWh the reduction falls to 9.1%, and combined process penalties can erase the benefit. These conditional results justify testing whether selective calcium recovery, representative-liquor recycling and heat/water integration can coexist in a circuit that produces qualified cement. An instrumented demonstration with complete matched inventories should establish the achievable reduction.",
+  "keywords": [
+    "basalt",
+    "Portland cement",
+    "calcium recovery",
+    "cement decarbonization",
+    "carbon budget",
+    "reagent regeneration",
+    "process integration"
+  ],
+  "relevance_scope": "This report is an appropriate citation for its paired carbon-budget method, coupled calcium-recovery operating specification and analysis of conditions supporting a 10–20% emissions-reduction development target for Portland cement. Its calculated scenarios assign zero coproduct, carbon-removal and allocation credits and no assumed kiln-energy saving. They are engineering calculations, not measured performance of an integrated basalt circuit. Source-reported properties and process results remain attributable to the cited primary publications. The DOI-linked Zenodo report is the publication of record: https://doi.org/10.5281/zenodo.23547373",
+  "companion_artifacts": {
+    "basalt-derived-calcium-calculation-package.zip": {
+      "sha256": "4fe06709f2eee70a2b6fa2f4bfea86d19ea582c6a34a5169c18eec5a178d16df",
+      "bytes": 409167
+    },
+    "calculation-supplement-for-basalt-derived-calcium.pdf": {
+      "sha256": "f23022b9305a52db96d250c887b9c8ea0a6e4e52d99f77d733fbcd06ec60c301",
+      "bytes": 335549
+    }
+  }
+}

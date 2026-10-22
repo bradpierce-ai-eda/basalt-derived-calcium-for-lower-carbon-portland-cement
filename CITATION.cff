@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: Bibliographic identity of the DOI-linked Zenodo report, the publication of
+  record.
+type: dataset
+title: Basalt-Derived Calcium for Lower Carbon Portland Cement
+authors: &id001
+- family-names: Pierce
+  given-names: Brad
+  orcid: https://orcid.org/0009-0009-7427-2969
+doi: 10.5281/zenodo.23547373
+date-released: '2026-10-21'
+url: https://zenodo.org/records/23547373
+abstract: Basalt-derived calcium warrants integrated development toward 10–20% lower
+  total emissions from Portland cement manufacture. The route avoids carbonate decomposition
+  but must pay for extraction, separation and regeneration. We combine a coupled operating
+  specification with a paired carbon budget, assigning zero coproduct, carbon-removal
+  or allocation credits and no assumed kiln-energy saving. A derived reagent-equivalent
+  constraint accounts explicitly for sodium release; the principal selected multiplier
+  is 1.30 relative to calcium-only demand. Under a reconstructed dry-process comparator
+  with the same energy supply and matched cement, selected operation at 20–40 g CO₂e/kWh
+  calculates 12.5–19.4% lower total emissions. At 30 g/kWh, the conventional and basalt
+  cases are 756.9 and 636.0 kg CO₂e/t. At 50 g/kWh the reduction falls to 9.1%, and
+  combined process penalties can erase the benefit. These conditional results justify
+  testing whether selective calcium recovery, representative-liquor recycling and
+  heat/water integration can coexist in a circuit that produces qualified cement.
+  An instrumented demonstration with complete matched inventories should establish
+  the achievable reduction.
+keywords: &id002
+- basalt
+- Portland cement
+- calcium recovery
+- cement decarbonization
+- carbon budget
+- reagent regeneration
+- process integration
+license: CC-BY-NC-4.0
+preferred-citation:
+  type: generic
+  title: Basalt-Derived Calcium for Lower Carbon Portland Cement
+  authors: *id001
+  doi: 10.5281/zenodo.23547373
+  date-published: '2026-10-21'
+  year: 2026
+  url: https://zenodo.org/records/23547373
+  publisher:
+    name: Zenodo
+  keywords: *id002
+  notes: Published report; the version DOI identifies the publication of record.

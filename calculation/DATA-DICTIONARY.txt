@@ -1,0 +1,91 @@
+DATA DICTIONARY
+
+All result rows describe calculated scenarios. No CSV is a measured plant
+trial. The basis is one tonne of matched cement at the factory gate.
+All *_kg emissions fields are kg CO2e per tonne cement unless a field is
+explicitly a material mass. Values retain full numerical precision.
+
+MAIN CSV DATASETS (results/)
+paired-scenarios.csv: 112 rows, four named designs x four calcium-replacement
+    fractions (0, 0.5, 0.75, 1) x seven delivered electricity factors.
+paired-thresholds.csv: 12 rows, four designs x reduction targets (0, 0.1, 0.2).
+coupled-stresses.csv: 10 rows, five stresses x electricity factors 0.03, 0.05.
+supplementary-stresses.csv: 10 rows, five additional stresses x those factors.
+paired-baseline-sensitivity.csv: 810 rows, selected kiln input, heat factors,
+    common electricity, other burdens, eligibility and electricity factors.
+operating-envelope.csv: 75 rows, reagent multiplier x heat recovery x supply.
+energy-attribution.csv: four rows separating cleaner-power effects from the
+    same-supply calcium-source effect. These effects must not be conflated.
+summary.json: principal worked case, selected stresses, thresholds and counts.
+verification.json: arithmetic and boundary-check results.
+publication-verification.json: publication-table and reproduction checks.
+
+DETAILED SCENARIO COLUMNS
+design: named design or stress identifier.
+replacement_fraction: fraction of eligible carbonate-calcium demand replaced (0 to 1).
+electricity_kg_per_kWh: delivered electricity lifecycle intensity, kg CO2e/kWh.
+baseline_kg: matched conventional total emissions, kg CO2e/t cement.
+eligible_calcination_kg: eligible full-replacement avoided carbonate emissions, kg CO2/t.
+q_CaOeq_t: CaO-equivalent required at full eligible replacement, t/t cement; multiply by replacement_fraction for actual recovered calcium.
+rock_t: actual processed dry rock, t/t cement.
+reagent_pairs_mol: acid equivalents required, mol equivalents/t cement.
+generated_base_mol: generated base equivalents before selected acid-yield allowance, mol/t cement.
+base_equivalent_kg: generated base as NaOH-equivalent, kg/t cement (material mass).
+acid_m3: circulating acid equivalent-duty volume, m3/t cement; not freshwater withdrawal.
+base_m3: circulating base equivalent-duty volume, m3/t cement; not freshwater withdrawal.
+acid_L_per_kgrock: circulating acid volume, L/kg processed rock.
+bmed_stack_kWh: bipolar-membrane stack electricity, kWh/t cement; full stack charged once.
+bmed_aux_kWh: stack-associated auxiliary electricity, kWh/t cement.
+grinding_kWh: rock grinding electricity, kWh/t cement.
+process_aux_kWh: selected additional process electricity, kWh/t cement.
+electricity_kWh: total added recovery electricity including explicit extra_power, kWh/t cement.
+gross_sensible_GJ: gross modeled sensible heat before recovery, GJ/t cement.
+net_sensible_GJ: sensible heat after selected recovery, GJ/t cement.
+cake_water_t: water in modeled recovered-product cake, t/t cement.
+drying_GJ: modeled cake drying heat before heat-loss multiplier, GJ/t cement.
+extra_heat_GJ: total supplied recovery heat including explicit extra_heat, GJ/t cement.
+electricity_kg: added recovery electricity emissions, kg CO2e/t cement.
+heat_kg: added supplied recovery heat emissions, kg CO2e/t cement.
+makeup_kg: paired reagent makeup emissions, kg CO2e/t cement; not reagent mass.
+other_kg: selected other recovery burden, kg CO2e/t cement.
+feed_carbonate_kg: charged feed carbonate release, kg CO2/t cement.
+fixed_kg: fixed burden whenever replacement_fraction > 0, kg CO2e/t cement.
+kiln_saving_kg: modeled kiln-energy saving; zero in every main paired result.
+non_electric_kg: base recovery nonelectric subtotal before optional extra heat or differential burdens; for total use P_kg minus electricity_kg.
+P_kg: total added recovery burden including all explicit stress increments, kg CO2e/t cement.
+avoided_kg: avoided carbonate emissions at actual replacement fraction, kg CO2/t cement.
+net_saving_kg: avoided_kg minus P_kg, kg CO2e/t cement.
+new_kg: basalt-route total, baseline_kg minus net_saving_kg, kg CO2e/t cement.
+reduction_fraction: net_saving_kg/baseline_kg; multiply by 100 for percent; negative means increased emissions.
+coproduct_credit_kg: mandatory zero coproduct credit, kg CO2e/t cement.
+carbon_removal_credit_kg: mandatory zero carbon-removal credit, kg CO2e/t cement.
+shared_heat_GJ: common kiln input on LHV basis, GJ/t cement.
+shared_power_kWh: common conventional electricity, kWh/t cement.
+common_other_kg: common other inventory charged equally, kg CO2e/t cement.
+kiln_heat_factor: lifecycle emissions per GJ kiln fuel input LHV; selected kg CO2e/GJ.
+recovery_heat_factor: lifecycle emissions per GJ supplied recovery heat; selected kg CO2e/GJ.
+delta_other_kg: explicit differential extra inventory, kg CO2e/t cement.
+margin10_kg: net_saving_kg minus 0.1 baseline_kg; remaining burden allowance for 10 percent reduction.
+margin20_kg: net_saving_kg minus 0.2 baseline_kg; remaining burden allowance for 20 percent reduction.
+calcium_source_effect_kg: same-supply absolute emissions saving, kg CO2e/t cement.
+
+OTHER TABLE CONVENTIONS
+Thresholds: target_fraction is the requested fractional reduction;
+max_electricity_kg_per_kWh is the solved delivered-electricity ceiling. A
+negative ceiling means that target is not reached even at zero electricity
+emissions with the selected nonelectric burdens.
+Sensitivity/envelope: ci is kg CO2e/kWh; heat_factor is kg CO2e/GJ on the
+stated heat-service boundaries; baseline, new, P and margin10/margin20 are
+kg CO2e/t cement; reduction is a fraction. lambda_value is the reagent
+multiplier; heat_recovery and eligible_fraction are fractions.
+Energy attribution: all effects are kg CO2e/t cement; ci is kg CO2e/kWh.
+Fixed-reference diagnostic data under legacy/results/ use their own explicit
+reference inventory and column labels, rather than the paired main baseline.
+
+INPUT PRECEDENCE
+Recovery constants/defaults and source descriptions reside in legacy/inputs.json.
+The paired common inventory and named design overrides reside in
+paired-inputs.json. effective-inputs.json expands that precedence for readers.
+Source-reported anchors are not evidence that the selected complete operating
+point has been demonstrated. Inventory entries marked selected, inferred,
+allowance, design or stress are model assumptions, not raw measurements.

@@ -1,0 +1,172 @@
+[
+  {
+    "display": "Table2 Selective target 0.02",
+    "source_file": "results/paired-scenarios.csv",
+    "where": {
+      "design": "selective_target",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.02
+    },
+    "values": {
+      "baseline_kg": 755.9300000000001,
+      "new_kg": 609.2294821556213,
+      "reduction_fraction": 0.19406627312631952
+    }
+  },
+  {
+    "display": "Table2 Selective target 0.03",
+    "source_file": "results/paired-scenarios.csv",
+    "where": {
+      "design": "selective_target",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.03
+    },
+    "values": {
+      "baseline_kg": 756.9300000000001,
+      "new_kg": 636.048287360499,
+      "reduction_fraction": 0.15969998895472642
+    }
+  },
+  {
+    "display": "Table2 Selective target 0.04",
+    "source_file": "results/paired-scenarios.csv",
+    "where": {
+      "design": "selective_target",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.04
+    },
+    "values": {
+      "baseline_kg": 757.9300000000001,
+      "new_kg": 662.8670925653767,
+      "reduction_fraction": 0.12542438936923384
+    }
+  },
+  {
+    "display": "Table2 Selective target 0.05",
+    "source_file": "results/paired-scenarios.csv",
+    "where": {
+      "design": "selective_target",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.05
+    },
+    "values": {
+      "baseline_kg": 758.9300000000001,
+      "new_kg": 689.6858977702543,
+      "reduction_fraction": 0.09123911589968212
+    }
+  },
+  {
+    "display": "Table2 Moderate integration 0.03",
+    "source_file": "results/paired-scenarios.csv",
+    "where": {
+      "design": "moderate",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.03
+    },
+    "values": {
+      "baseline_kg": 756.9300000000001,
+      "new_kg": 689.9922791776843,
+      "reduction_fraction": 0.08843317192120245
+    }
+  },
+  {
+    "display": "Table2 Recovery/selectivity penalty 0.03",
+    "source_file": "results/coupled-stresses.csv",
+    "where": {
+      "design": "recovery_selectivity",
+      "replacement_fraction": "1",
+      "electricity_kg_per_kWh": "0.03"
+    },
+    "values": {
+      "baseline_kg": "756.9300000000001",
+      "new_kg": "689.7886701546976",
+      "reduction_fraction": "0.08870216512134872"
+    }
+  },
+  {
+    "display": "Table2 Combined process penalties 0.03",
+    "source_file": "results/coupled-stresses.csv",
+    "where": {
+      "design": "combined",
+      "replacement_fraction": "1",
+      "electricity_kg_per_kWh": "0.03"
+    },
+    "values": {
+      "baseline_kg": "756.9300000000001",
+      "new_kg": "767.2168451333254",
+      "reduction_fraction": "-0.01359021987941461"
+    }
+  },
+  {
+    "display": "Table2 Hot dilute 0.03",
+    "source_file": "results/paired-scenarios.csv",
+    "where": {
+      "design": "hot_dilute",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.03
+    },
+    "values": {
+      "baseline_kg": 756.9300000000001,
+      "new_kg": 1063.7605108832258,
+      "reduction_fraction": -0.4053618047682423
+    }
+  },
+  {
+    "display": "Main worked case and margins",
+    "source_file": "results/paired-scenarios.csv",
+    "where": {
+      "design": "selective_target",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.03
+    },
+    "values": {
+      "design": "selective_target",
+      "replacement_fraction": 1,
+      "electricity_kg_per_kWh": 0.03,
+      "baseline_kg": 756.9300000000001,
+      "eligible_calcination_kg": 456.0,
+      "q_CaOeq_t": 0.5810295841854124,
+      "rock_t": 5.379903557272337,
+      "reagent_pairs_mol": 26939.331970006817,
+      "generated_base_mol": 29932.59107778535,
+      "base_equivalent_kg": 1197.2138453381806,
+      "acid_m3": 29.932591077785354,
+      "base_m3": 29.93259107778535,
+      "acid_L_per_kgrock": 5.56377837616135,
+      "bmed_stack_kWh": 2154.984921608725,
+      "bmed_aux_kWh": 215.4984921608727,
+      "grinding_kWh": 161.3971067181701,
+      "process_aux_kWh": 50,
+      "electricity_kWh": 2581.8805204877676,
+      "gross_sensible_GJ": 6.726876276603803,
+      "net_sensible_GJ": 1.0090314414905706,
+      "cake_water_t": 0.1919246080436265,
+      "drying_GJ": 0.5757738241308794,
+      "extra_heat_GJ": 1.7432857921835951,
+      "electricity_kg": 77.45641561463303,
+      "heat_kg": 122.03000545285165,
+      "makeup_kg": 71.83283072029084,
+      "other_kg": 43.0392284581787,
+      "feed_carbonate_kg": 10.759807114544675,
+      "fixed_kg": 10,
+      "kiln_saving_kg": 0,
+      "non_electric_kg": 257.6618717458659,
+      "P_kg": 335.1182873604989,
+      "avoided_kg": 456.0,
+      "net_saving_kg": 120.88171263950107,
+      "new_kg": 636.048287360499,
+      "reduction_fraction": 0.15969998895472642,
+      "coproduct_credit_kg": 0,
+      "carbon_removal_credit_kg": 0,
+      "shared_heat_GJ": 3.1990000000000003,
+      "shared_power_kWh": 100,
+      "common_other_kg": 50,
+      "kiln_heat_factor": 70,
+      "recovery_heat_factor": 70,
+      "delta_other_kg": 0,
+      "margin10_kg": 45.18871263950106,
+      "margin20_kg": -30.50428736049895,
+      "calcium_source_effect_kg": 120.88171263950107
+    }
+  }
+]

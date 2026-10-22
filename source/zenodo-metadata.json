@@ -1,0 +1,481 @@
+{
+  "id": "23547373",
+  "created": "2026-10-22T00:20:42.163885+00:00",
+  "updated": "2026-10-22T00:20:42.625998+00:00",
+  "links": {
+    "self": "https://zenodo.org/api/records/23547373",
+    "self_html": "https://zenodo.org/records/23547373",
+    "preview_html": "https://zenodo.org/records/23547373?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.23547373",
+    "self_doi": "https://doi.org/10.5281/zenodo.23547373",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23547373",
+    "reserve_doi": "https://zenodo.org/api/records/23547373/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/23547372",
+    "parent_html": "https://zenodo.org/records/23547372",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23547372",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23547372",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23547373/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23547373/sequence/default",
+    "files": "https://zenodo.org/api/records/23547373/files",
+    "media_files": "https://zenodo.org/api/records/23547373/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/full/%5E1200,/0/default.jpg"
+    },
+    "latest": "https://zenodo.org/api/records/23547373/versions/latest",
+    "latest_html": "https://zenodo.org/records/23547373/latest",
+    "versions": "https://zenodo.org/api/records/23547373/versions",
+    "draft": "https://zenodo.org/api/records/23547373/draft",
+    "access_links": "https://zenodo.org/api/records/23547373/access/links",
+    "access_grants": "https://zenodo.org/api/records/23547373/access/grants",
+    "access_users": "https://zenodo.org/api/records/23547373/access/users",
+    "access_request": "https://zenodo.org/api/records/23547373/access/request",
+    "access": "https://zenodo.org/api/records/23547373/access",
+    "communities": "https://zenodo.org/api/records/23547373/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23547373/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/23547373/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/23547373/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/23547373/quota-increase",
+    "requests": "https://zenodo.org/api/records/23547373/requests"
+  },
+  "revision_id": 3,
+  "parent": {
+    "id": "23547372",
+    "access": {
+      "owned_by": {
+        "user": "1888563"
+      },
+      "settings": {
+        "allow_user_requests": false,
+        "allow_guest_requests": false,
+        "accept_conditions_text": null,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "pids": {
+      "doi": {
+        "identifier": "10.5281/zenodo.23547372",
+        "provider": "datacite",
+        "client": "datacite"
+      }
+    }
+  },
+  "versions": {
+    "is_latest": true,
+    "index": 1
+  },
+  "is_published": true,
+  "is_draft": false,
+  "pids": {
+    "doi": {
+      "identifier": "10.5281/zenodo.23547373",
+      "provider": "datacite",
+      "client": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:23547373",
+      "provider": "oai"
+    }
+  },
+  "metadata": {
+    "resource_type": {
+      "id": "publication-report",
+      "title": {
+        "de": "Bericht",
+        "en": "Report"
+      }
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Pierce, Brad",
+          "given_name": "Brad",
+          "family_name": "Pierce",
+          "identifiers": [
+            {
+              "identifier": "0009-0009-7427-2969",
+              "scheme": "orcid"
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Basalt-Derived Calcium for Lower Carbon Portland Cement",
+    "additional_titles": [
+      {
+        "title": "A Carbon Budget for Process Development",
+        "type": {
+          "id": "subtitle",
+          "title": {
+            "de": "Untertitel",
+            "en": "Subtitle"
+          }
+        },
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        }
+      }
+    ],
+    "publisher": "Zenodo",
+    "publication_date": "2026-10-21",
+    "subjects": [
+      {
+        "id": "euroscivoc:63",
+        "subject": "Materials engineering",
+        "scheme": "EuroSciVoc",
+        "props": {
+          "parents": "euroscivoc:25"
+        },
+        "identifiers": [
+          {
+            "identifier": "http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad",
+            "scheme": "url"
+          }
+        ]
+      },
+      {
+        "subject": "basalt"
+      },
+      {
+        "subject": "Portland cement"
+      },
+      {
+        "subject": "calcium recovery"
+      },
+      {
+        "subject": "cement decarbonization"
+      },
+      {
+        "subject": "carbon budget"
+      },
+      {
+        "subject": "reagent regeneration"
+      },
+      {
+        "subject": "process integration"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-nc-4.0",
+        "title": {
+          "en": "Creative Commons Attribution Non Commercial 4.0 International"
+        },
+        "description": {
+          "en": ""
+        },
+        "icon": "cc-by-nc-icon",
+        "props": {
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "scheme": "spdx"
+        }
+      }
+    ],
+    "copyright": "© 2026 Brad Pierce",
+    "description": "<p>Basalt-derived calcium warrants integrated development toward 10&ndash;20% lower total emissions from Portland cement manufacture. The route avoids carbonate decomposition but must pay for extraction, separation and regeneration. We combine a coupled operating specification with a paired carbon budget, assigning zero coproduct, carbon-removal or allocation credits and no assumed kiln-energy saving. A derived reagent-equivalent constraint accounts explicitly for sodium release; the principal selected multiplier is 1.30 relative to calcium-only demand. Under a reconstructed dry-process comparator with the same energy supply and matched cement, selected operation at 20&ndash;40 g CO₂e/kWh calculates 12.5&ndash;19.4% lower total emissions. At 30 g/kWh, the conventional and basalt cases are 756.9 and 636.0 kg CO₂e/t. At 50 g/kWh the reduction falls to 9.1%, and combined process penalties can erase the benefit. These conditional results justify testing whether selective calcium recovery, representative-liquor recycling and heat/water integration can coexist in a circuit that produces qualified cement. An instrumented demonstration with complete matched inventories should establish the achievable reduction.</p>",
+    "additional_descriptions": [
+      {
+        "description": "<p>This report was developed by Brad Pierce with substantial assistance from an AI model. He established the research objectives and editorial direction and retains responsibility for the claims, source attributions, and decisions about publication.&nbsp;</p>",
+        "type": {
+          "id": "methods",
+          "title": {
+            "de": "Methoden",
+            "en": "Methods"
+          }
+        },
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        }
+      },
+      {
+        "description": "<p>Accompanying materials: The calculation supplement PDF presents the equations, assumptions, input values and sensitivity analyses supporting the paper. The calculation-package ZIP provides runnable Python code, model inputs, calculated results, references, vector figures and reproduction instructions. Numerical reproduction requires Python 3.10 or later and no external libraries; optional figure regeneration uses the dependencies specified in the package.</p>",
+        "type": {
+          "id": "other",
+          "title": {
+            "de": "Sonstige",
+            "en": "Other"
+          }
+        },
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        }
+      }
+    ]
+  },
+  "custom_fields": {},
+  "access": {
+    "record": "public",
+    "files": "public",
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "status": "open"
+  },
+  "files": {
+    "enabled": true,
+    "default_preview": "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+    "order": [],
+    "count": 3,
+    "total_bytes": 1239575,
+    "entries": {
+      "basalt-derived-calcium-calculation-package.zip": {
+        "id": "0e052d92-082a-443f-a576-be9817d0cf1b",
+        "checksum": "md5:74eb8afd319001d68000dd4e477e0c2a",
+        "ext": "zip",
+        "size": 409167,
+        "mimetype": "application/zip",
+        "storage_class": "L",
+        "key": "basalt-derived-calcium-calculation-package.zip",
+        "metadata": {},
+        "access": {
+          "hidden": false
+        },
+        "links": {
+          "self": "https://zenodo.org/api/records/23547373/files/basalt-derived-calcium-calculation-package.zip",
+          "content": "https://zenodo.org/api/records/23547373/files/basalt-derived-calcium-calculation-package.zip/content",
+          "container": "https://zenodo.org/api/records/23547373/files/basalt-derived-calcium-calculation-package.zip/container"
+        }
+      },
+      "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf": {
+        "id": "a9c637fd-e2aa-4019-9599-8784398b7052",
+        "checksum": "md5:7bf62a4c85b2553de79546273a972e63",
+        "ext": "pdf",
+        "size": 494859,
+        "mimetype": "application/pdf",
+        "storage_class": "L",
+        "key": "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+        "metadata": {
+          "width": 612,
+          "height": 792
+        },
+        "access": {
+          "hidden": false
+        },
+        "links": {
+          "self": "https://zenodo.org/api/records/23547373/files/basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+          "content": "https://zenodo.org/api/records/23547373/files/basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/content",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:23547373/canvas/basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+          "iiif_base": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/info.json",
+          "iiif_api": "https://zenodo.org/api/iiif/record:23547373:basalt-derived-calcium-for-lower-carbon-portland-cement.pdf/full/full/0/default.png"
+        }
+      },
+      "calculation-supplement-for-basalt-derived-calcium.pdf": {
+        "id": "d6973352-8a5b-4489-a21e-69ffe7af8bd6",
+        "checksum": "md5:1af8c84f39a0583986cb296fbc29bd86",
+        "ext": "pdf",
+        "size": 335549,
+        "mimetype": "application/pdf",
+        "storage_class": "L",
+        "key": "calculation-supplement-for-basalt-derived-calcium.pdf",
+        "metadata": {
+          "width": 612,
+          "height": 792
+        },
+        "access": {
+          "hidden": false
+        },
+        "links": {
+          "self": "https://zenodo.org/api/records/23547373/files/calculation-supplement-for-basalt-derived-calcium.pdf",
+          "content": "https://zenodo.org/api/records/23547373/files/calculation-supplement-for-basalt-derived-calcium.pdf/content",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:23547373/canvas/calculation-supplement-for-basalt-derived-calcium.pdf",
+          "iiif_base": "https://zenodo.org/api/iiif/record:23547373:calculation-supplement-for-basalt-derived-calcium.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:23547373:calculation-supplement-for-basalt-derived-calcium.pdf/info.json",
+          "iiif_api": "https://zenodo.org/api/iiif/record:23547373:calculation-supplement-for-basalt-derived-calcium.pdf/full/full/0/default.png"
+        }
+      }
+    }
+  },
+  "media_files": {
+    "enabled": true,
+    "order": [],
+    "count": 2,
+    "total_bytes": 0,
+    "entries": {
+      "calculation-supplement-for-basalt-derived-calcium.pdf.ptif": {
+        "id": "4a3cbbca-d3ab-40f7-85e0-014b5cab8051",
+        "ext": "ptif",
+        "size": 0,
+        "mimetype": "application/octet-stream",
+        "storage_class": "L",
+        "key": "calculation-supplement-for-basalt-derived-calcium.pdf.ptif",
+        "metadata": null,
+        "access": {
+          "hidden": true
+        },
+        "processor": {
+          "type": "image-tiles",
+          "status": "finished",
+          "source_file_id": "d6973352-8a5b-4489-a21e-69ffe7af8bd6"
+        },
+        "links": {
+          "self": "https://zenodo.org/api/records/23547373/files/calculation-supplement-for-basalt-derived-calcium.pdf.ptif",
+          "content": "https://zenodo.org/api/records/23547373/files/calculation-supplement-for-basalt-derived-calcium.pdf.ptif/content"
+        }
+      },
+      "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf.ptif": {
+        "id": "5c064f7a-0176-4bb6-829a-9c29b6f4f85b",
+        "ext": "ptif",
+        "size": 0,
+        "mimetype": "application/octet-stream",
+        "storage_class": "L",
+        "key": "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf.ptif",
+        "metadata": null,
+        "access": {
+          "hidden": true
+        },
+        "processor": {
+          "type": "image-tiles",
+          "status": "finished",
+          "source_file_id": "a9c637fd-e2aa-4019-9599-8784398b7052"
+        },
+        "links": {
+          "self": "https://zenodo.org/api/records/23547373/files/basalt-derived-calcium-for-lower-carbon-portland-cement.pdf.ptif",
+          "content": "https://zenodo.org/api/records/23547373/files/basalt-derived-calcium-for-lower-carbon-portland-cement.pdf.ptif/content"
+        }
+      }
+    }
+  },
+  "status": "published",
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "stats": {
+    "this_version": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    },
+    "all_versions": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    }
+  },
+  "swh": {},
+  "ui": {
+    "publication_date_l10n_medium": "Oct 21, 2026",
+    "publication_date_l10n_long": "October 21, 2026",
+    "created_date_l10n_long": "October 22, 2026",
+    "updated_date_l10n_long": "October 22, 2026",
+    "resource_type": {
+      "id": "publication-report",
+      "title_l10n": "Report"
+    },
+    "additional_titles": [
+      {
+        "title": "A Carbon Budget for Process Development",
+        "type": {
+          "id": "subtitle",
+          "title_l10n": "Subtitle"
+        },
+        "lang": {
+          "id": "eng",
+          "title_l10n": "English"
+        }
+      }
+    ],
+    "custom_fields": {},
+    "access_status": {
+      "id": "open",
+      "title_l10n": "Open",
+      "description_l10n": "The record and files are publicly accessible.",
+      "icon": "unlock",
+      "embargo_date_l10n": null,
+      "message_class": ""
+    },
+    "creators": {
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Pierce, Brad",
+            "given_name": "Brad",
+            "family_name": "Pierce",
+            "identifiers": [
+              {
+                "identifier": "0009-0009-7427-2969",
+                "scheme": "orcid"
+              }
+            ]
+          }
+        }
+      ],
+      "affiliations": []
+    },
+    "languages": [
+      {
+        "id": "eng",
+        "title_l10n": "English"
+      }
+    ],
+    "description_stripped": "Basalt-derived calcium warrants integrated development toward 10–20% lower total emissions from Portland cement manufacture. The route avoids carbonate decomposition but must pay for extraction, separation and regeneration. We combine a coupled operating specification with a paired carbon budget, assigning zero coproduct, carbon-removal or allocation credits and no assumed kiln-energy saving. A derived reagent-equivalent constraint accounts explicitly for sodium release; the principal selected multiplier is 1.30 relative to calcium-only demand. Under a reconstructed dry-process comparator with the same energy supply and matched cement, selected operation at 20–40 g CO₂e/kWh calculates 12.5–19.4% lower total emissions. At 30 g/kWh, the conventional and basalt cases are 756.9 and 636.0 kg CO₂e/t. At 50 g/kWh the reduction falls to 9.1%, and combined process penalties can erase the benefit. These conditional results justify testing whether selective calcium recovery, representative-liquor recycling and heat/water integration can coexist in a circuit that produces qualified cement. An instrumented demonstration with complete matched inventories should establish the achievable reduction.",
+    "version": "v1",
+    "additional_descriptions": [
+      {
+        "description": "<p>This report was developed by Brad Pierce with substantial assistance from an AI model. He established the research objectives and editorial direction and retains responsibility for the claims, source attributions, and decisions about publication.&nbsp;</p>",
+        "type": {
+          "id": "methods",
+          "title_l10n": "Methods"
+        },
+        "lang": {
+          "id": "eng",
+          "title_l10n": "English"
+        }
+      },
+      {
+        "description": "<p>Accompanying materials: The calculation supplement PDF presents the equations, assumptions, input values and sensitivity analyses supporting the paper. The calculation-package ZIP provides runnable Python code, model inputs, calculated results, references, vector figures and reproduction instructions. Numerical reproduction requires Python 3.10 or later and no external libraries; optional figure regeneration uses the dependencies specified in the package.</p>",
+        "type": {
+          "id": "other",
+          "title_l10n": "Other"
+        },
+        "lang": {
+          "id": "eng",
+          "title_l10n": "English"
+        }
+      }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-nc-4.0",
+        "title_l10n": "Creative Commons Attribution Non Commercial 4.0 International",
+        "description_l10n": "",
+        "icon": "cc-by-nc-icon",
+        "props": {
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "scheme": "spdx"
+        }
+      }
+    ],
+    "is_draft": false
+  }
+}
