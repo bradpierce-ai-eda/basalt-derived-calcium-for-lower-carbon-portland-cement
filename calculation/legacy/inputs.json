@@ -1,0 +1,130 @@
+{
+  "version": "1.0",
+  "basis": "kg CO2e per matched tonne of cement at factory gate; incremental screening, not certified LCA",
+  "coproduct_credit_kg": 0,
+  "carbon_removal_credit_kg": 0,
+  "allocation_away_from_cement_fraction": 0,
+  "constants": {
+    "molar_CaO_g": 56.077,
+    "molar_CO2_g": 44.01,
+    "molar_NaOH_g": 39.997,
+    "molar_CaOH2_g": 74.093,
+    "water_cp_MJ_per_t_K": 4.18,
+    "evaporation_MJ_per_kg": 2.4,
+    "rock_cp_MJ_per_t_K": 0.84
+  },
+  "reference": {
+    "gwp_kg_per_tcement": 919,
+    "calcination_kg_per_tcement": 480,
+    "eligible_calcination_fraction": 0.95,
+    "clinker_mass_fraction": 0.914,
+    "source_id": "PCA23",
+    "eligible_fraction_evidence": "engineering assumption; retains 5% of reported calcination emissions; CaO-equivalent inferred, not a measured Ca/Mg assay"
+  },
+  "electricity_kg_per_kWh": [
+    0.02,
+    0.03,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.7
+  ],
+  "replacement_fractions": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "targets": [
+    0,
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "defaults": {
+    "acid_M": 0.9,
+    "base_M": 1.0,
+    "heated_base_fraction": 0.5,
+    "stack_auxiliary_multiplier": 1.1,
+    "process_aux_kWh_per_full_tcement": 50,
+    "heat_kgCO2e_per_GJ_delivered": 70,
+    "dryer_efficiency": 0.8,
+    "makeup_pair_kgCO2e_per_kgNaOH_equiv": 3,
+    "fixed_increment_kgCO2e_per_active_tcement": 10,
+    "kiln_saving_GJ_per_full_tcement": 0,
+    "coproduct_credit_kg": 0,
+    "carbon_removal_credit_kg": 0,
+    "acid_to_base_equivalent_yield": 0.9,
+    "heat_loss_multiplier": 1.1,
+    "feed_carbonate_CO2_kg_per_trock": 2.0
+  },
+  "designs": [
+    {
+      "id": "integrated",
+      "label": "Integrated design target",
+      "feed_CaO_fraction": 0.12,
+      "overall_Ca_recovery": 0.9,
+      "reagent_equivalent_multiplier": 1.1,
+      "bmed_kWh_per_kgNaOH": 1.8,
+      "leach_deltaT_K": 35,
+      "sensible_heat_recovery_fraction": 0.85,
+      "cake_dry_solids_fraction": 0.8,
+      "grinding_kWh_per_trock": 30,
+      "other_burden_kgCO2e_per_trock": 8,
+      "makeup_loss_fraction": 0.02
+    },
+    {
+      "id": "moderate",
+      "label": "Moderate integration / higher burden",
+      "feed_CaO_fraction": 0.1,
+      "overall_Ca_recovery": 0.85,
+      "reagent_equivalent_multiplier": 1.25,
+      "bmed_kWh_per_kgNaOH": 2.1,
+      "leach_deltaT_K": 35,
+      "sensible_heat_recovery_fraction": 0.85,
+      "cake_dry_solids_fraction": 0.75,
+      "grinding_kWh_per_trock": 60,
+      "other_burden_kgCO2e_per_trock": 10,
+      "makeup_loss_fraction": 0.02
+    },
+    {
+      "id": "hot_dilute",
+      "label": "Hot dilute circuit stress",
+      "feed_CaO_fraction": 0.1,
+      "overall_Ca_recovery": 0.85,
+      "reagent_equivalent_multiplier": 1.3,
+      "bmed_kWh_per_kgNaOH": 2.6,
+      "leach_deltaT_K": 70,
+      "sensible_heat_recovery_fraction": 0.7,
+      "cake_dry_solids_fraction": 0.65,
+      "grinding_kWh_per_trock": 80,
+      "other_burden_kgCO2e_per_trock": 15,
+      "makeup_loss_fraction": 0.03
+    },
+    {
+      "id": "bulk_dissolution",
+      "label": "Broad co-extraction stress",
+      "feed_CaO_fraction": 0.1,
+      "overall_Ca_recovery": 0.85,
+      "reagent_equivalent_multiplier": 4.0,
+      "bmed_kWh_per_kgNaOH": 2.1,
+      "leach_deltaT_K": 35,
+      "sensible_heat_recovery_fraction": 0.85,
+      "cake_dry_solids_fraction": 0.75,
+      "grinding_kWh_per_trock": 60,
+      "other_burden_kgCO2e_per_trock": 10,
+      "makeup_loss_fraction": 0.02
+    }
+  ],
+  "source_grounding": {
+    "PCA23": "Table4 PDF p10:919kgGWP,480kgcalcination; Table1 p4:clinker91.4%; foreground2019; revision2023",
+    "CASSARO23": "p2995 closed-loop base1.4 kWh/kg; p2996 Table2 continuous1.8 and2.1; conclusion1.9-2.6 at higher currents. SEC is stack energy per kgNaOH; acid is paired output, not an additional SEC charge. Clean synthetic1M NaCl; not rock leachate.",
+    "PRANCEVIC26": "Natural rock CaO9-12%; Table2 and feasibility section:4.5GJ regeneration+1.7GJ clinkering=6.2GJ/tPC; theoretical heat advantage not credited in main runs; additional1.1-1.3equivalent multipliers are selected, not observed.",
+    "NREL21": "Table1 lifecycle medians PV43,wind13,nuclear13,gas486,coal1001gCO2e/kWh; scenario30-50g is a selected low-carbon delivered supply, not zero, a procurement claim or an availability guarantee.",
+    "EPA25": "Table1 natural gas53.06kgCO2/mmBtu HHV combustion-only,50.29kg/GJfuel; selected delivered-heat70kg/GJ includes assumed boiler85% and upstream allowance; not an EPA lifecycle factor. eGRID combustion output factors are contextual, not substituted for lifecycle electricity.",
+    "NERON22": "HCl/anorthosite thermokinetics; impurity simplification; dilute0.9M/high Ca recovery/60C combined operating point is a design requirement not validated by this source. No arbitrary concentration without energy accounting."
+  }
+}
