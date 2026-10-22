@@ -1,0 +1,15 @@
+© 2026 Brad Pierce · CC BY-NC 4.0
+
+The authored code, model inputs, calculated data, documentation and figures
+in this package are licensed under the Creative Commons Attribution-
+NonCommercial 4.0 International license.
+
+License and complete legal terms:
+https://creativecommons.org/licenses/by-nc/4.0/
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Give appropriate credit, link the license, indicate changes, and use the
+material only for noncommercial purposes under the license terms. No
+additional restrictions are imposed. This notice does not license the
+external publications cited in the reference inventory. Third-party Python
+and plotting dependencies are not bundled and retain their own licenses.

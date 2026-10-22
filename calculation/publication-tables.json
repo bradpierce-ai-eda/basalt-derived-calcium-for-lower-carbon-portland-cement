@@ -1,0 +1,319 @@
+{
+  "paper": [
+    [
+      [
+        "Input or boundary",
+        "Paired specification",
+        "Evidence/status"
+      ],
+      [
+        "Product and clinker",
+        "Equivalent cement; clinker 0.914",
+        "Product matching required; clinker anchor [4]"
+      ],
+      [
+        "Calcination and eligible share",
+        "480; 95% → 456 kg CO₂/t",
+        "480 reported [4]; eligibility selected"
+      ],
+      [
+        "Common kiln input",
+        "3.5 GJ/t clinker = 3.199 GJ/t cement",
+        "Selected within annual dry-process range [12]"
+      ],
+      [
+        "Common electricity and other",
+        "100 kWh/t; 50 kg CO₂e/t",
+        "Electricity range anchor [12]; other selected 0–100"
+      ],
+      [
+        "Energy factors",
+        "Same Ie in both routes; Ik=Ip=70 kg/GJ",
+        "Selected lifecycle factors on stated input bases"
+      ],
+      [
+        "Feed and overall recovery",
+        "12 wt% CaO-equivalent; 90%",
+        "Grade context [3]; recovery selected"
+      ],
+      [
+        "Reagent multiplier and stack SEC",
+        "λ=1.30; 1.8 kWh/kg NaOH-eq",
+        "λ chemistry-aware target; clean-brine SEC [5]"
+      ],
+      [
+        "Acid/base and yield",
+        "0.9/1.0 M; acid/base yield 0.90",
+        "Selected, not a measured recycle balance"
+      ],
+      [
+        "Heat recovery and cake solids",
+        "85%; 80%",
+        "Coupled integration targets"
+      ],
+      [
+        "Credits and kiln saving",
+        "All credits 0; main kiln saving 0",
+        "Necessary recovery burdens charged to cement"
+      ]
+    ],
+    [
+      [
+        "Design",
+        "Ie g/kWh",
+        "Conventional kg/t",
+        "Basalt kg/t",
+        "Reduction"
+      ],
+      [
+        "Selective target",
+        "20",
+        "755.9",
+        "609.2",
+        "19.4%"
+      ],
+      [
+        "Selective target",
+        "30",
+        "756.9",
+        "636.0",
+        "16.0%"
+      ],
+      [
+        "Selective target",
+        "40",
+        "757.9",
+        "662.9",
+        "12.5%"
+      ],
+      [
+        "Selective target",
+        "50",
+        "758.9",
+        "689.7",
+        "9.1%"
+      ],
+      [
+        "Moderate integration",
+        "30",
+        "756.9",
+        "690.0",
+        "8.8%"
+      ],
+      [
+        "Recovery/selectivity penalty",
+        "30",
+        "756.9",
+        "689.8",
+        "8.9%"
+      ],
+      [
+        "Combined process penalties",
+        "30",
+        "756.9",
+        "767.2",
+        "-1.4%"
+      ],
+      [
+        "Hot dilute",
+        "30",
+        "756.9",
+        "1,063.8",
+        "-40.5%"
+      ]
+    ]
+  ],
+  "supplement": [
+    [
+      [
+        "Parameter",
+        "Selective target",
+        "Ambitious reference",
+        "Moderate",
+        "Hot dilute"
+      ],
+      [
+        "Feed CaO fraction",
+        "0.12",
+        "0.12",
+        "0.1",
+        "0.1"
+      ],
+      [
+        "Overall Ca recovery",
+        "0.9",
+        "0.9",
+        "0.85",
+        "0.85"
+      ],
+      [
+        "Reagent multiplier λ",
+        "1.3",
+        "1.1",
+        "1.25",
+        "1.3"
+      ],
+      [
+        "Stack SEC kWh/kg NaOH",
+        "1.8",
+        "1.8",
+        "2.1",
+        "2.6"
+      ],
+      [
+        "Temperature rise K",
+        "35",
+        "35",
+        "35",
+        "70"
+      ],
+      [
+        "Sensible heat recovery",
+        "0.85",
+        "0.85",
+        "0.85",
+        "0.7"
+      ],
+      [
+        "Cake dry-solids fraction",
+        "0.8",
+        "0.8",
+        "0.75",
+        "0.65"
+      ],
+      [
+        "Grinding kWh/t rock",
+        "30",
+        "30",
+        "60",
+        "80"
+      ],
+      [
+        "Other reserve kg CO₂e/t rock",
+        "8",
+        "8",
+        "10",
+        "15"
+      ],
+      [
+        "Fresh makeup loss fraction",
+        "0.02",
+        "0.02",
+        "0.02",
+        "0.03"
+      ]
+    ],
+    [
+      [
+        "Specification",
+        "30 g reduction",
+        "50 g reduction"
+      ],
+      [
+        "Selective target",
+        "16.0%",
+        "9.1%"
+      ],
+      [
+        "Recovery/selectivity bundle",
+        "8.9%",
+        "0.6%"
+      ],
+      [
+        "Heat/water bundle",
+        "6.8%",
+        "-0.3%"
+      ],
+      [
+        "Combined bundles",
+        "-1.4%",
+        "-9.9%"
+      ],
+      [
+        "Extra duty/inventory gap",
+        "2.4%",
+        "-4.7%"
+      ],
+      [
+        "Broad extraction λ4",
+        "-55.6%",
+        "-79.1%"
+      ],
+      [
+        "λ1.50 only",
+        "11.5%",
+        "3.7%"
+      ],
+      [
+        "λ1.60 only",
+        "9.3%",
+        "1.0%"
+      ],
+      [
+        "Heat recovery 70% only",
+        "5.7%",
+        "-1.1%"
+      ],
+      [
+        "Cake solids 65% only",
+        "9.2%",
+        "2.4%"
+      ],
+      [
+        "Heat factors 100 kg/GJ",
+        "8.0%",
+        "2.0%"
+      ]
+    ],
+    [
+      [
+        "Integrated measurement",
+        "Budget parameter",
+        "Decision"
+      ],
+      [
+        "Phase/Ca/Na/carbonate assay",
+        "g, D; minimum λ",
+        "Choose actual feed and eligible carbon"
+      ],
+      [
+        "All Ca outlets; reagent-borne Ca",
+        "η; recovered-rock calcium",
+        "Establish usable yield without imported-Ca shortcut"
+      ],
+      [
+        "Real-liquor recycle and impurities",
+        "λ, y, SEC, makeup, purge",
+        "Establish equivalent/salt closure and stack duty"
+      ],
+      [
+        "Heat/water/solids at throughput",
+        "h, cake, heat, power",
+        "Demonstrate simultaneous integration"
+      ],
+      [
+        "Actual precursor and qualified cement",
+        "Correction, firing, performance",
+        "Preserve the functional unit"
+      ],
+      [
+        "Matched full inventories and uncertainty",
+        "P, δU; 10/20% margins",
+        "Confirm a useful measured reduction"
+      ]
+    ]
+  ],
+  "associated_pdfs": {
+    "paper": {
+      "filename": "basalt-derived-calcium-for-lower-carbon-portland-cement.pdf",
+      "sha256": "e0107c1ae5c10fd03bc54908df28cffb7032f491767cf0b68ea389a97e5f8c6a",
+      "pages": 10
+    },
+    "supplement": {
+      "filename": "calculation-supplement-for-basalt-derived-calcium.pdf",
+      "sha256": "f23022b9305a52db96d250c887b9c8ea0a6e4e52d99f77d733fbcd06ec60c301",
+      "pages": 7
+    }
+  },
+  "doi": "10.5281/zenodo.23547373"
+}
