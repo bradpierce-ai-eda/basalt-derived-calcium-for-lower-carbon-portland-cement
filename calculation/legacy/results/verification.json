@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "CaCO3 reaction mass ratio independently calculated",
+      "pass": true
+    },
+    {
+      "name": "zero substitution returns exact source baseline",
+      "pass": true
+    },
+    {
+      "name": "carbon identity closes",
+      "pass": true
+    },
+    {
+      "name": "eligible reference retains24kg calcination",
+      "pass": true
+    },
+    {
+      "name": "CaO recovered mass closes",
+      "pass": true
+    },
+    {
+      "name": "acid volume follows molarity rather than chosen convenient liquid/solid ratio",
+      "pass": true
+    },
+    {
+      "name": "lower acid yield increases full stack charge once",
+      "pass": true
+    },
+    {
+      "name": "paired acid energy not added a second time",
+      "pass": true
+    },
+    {
+      "name": "cake water and drying cannot disappear",
+      "pass": true
+    },
+    {
+      "name": "wetter cake consumes more heat",
+      "pass": true
+    },
+    {
+      "name": "poorer sensible recovery worsens net emissions",
+      "pass": true
+    },
+    {
+      "name": "extra reagent demand worsens both heating and electricity",
+      "pass": true
+    },
+    {
+      "name": "loss/makeup embodied emissions included",
+      "pass": true
+    },
+    {
+      "name": "feed carbonate emissions included",
+      "pass": true
+    },
+    {
+      "name": "lower electricity factor improves identical process only",
+      "pass": true
+    },
+    {
+      "name": "all baseline kiln emissions retained in main case",
+      "pass": true
+    },
+    {
+      "name": "exact solved boundary recovers target0",
+      "pass": true
+    },
+    {
+      "name": "exact solved boundary recovers target0.1",
+      "pass": true
+    },
+    {
+      "name": "exact solved boundary recovers target0.2",
+      "pass": true
+    },
+    {
+      "name": "coproduct credits fail closed",
+      "pass": true
+    },
+    {
+      "name": "carbon removal credits fail closed",
+      "pass": true
+    },
+    {
+      "name": "published salt-splitting arithmetic matches rounded4.5GJ within2%",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild focused_stress.csv",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild joint_sensitivity.csv",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild modeled_kiln_sensitivity.csv",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild published_arithmetic_check.json",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild scenarios.csv",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild summary.json",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild thresholds.csv",
+      "pass": true
+    },
+    {
+      "name": "clean rebuild unchanged_route_comparator_stress.csv",
+      "pass": true
+    }
+  ],
+  "count": 30,
+  "scope": "model arithmetic, conservative boundary guards, metamorphic changes and independent clean numerical rebuild; not independent experimental validation"
+}
